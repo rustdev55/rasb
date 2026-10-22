@@ -60,3 +60,4 @@ launchctl unload "$PLIST_PATH" 2>/dev/null
 launchctl load "$PLIST_PATH"
 
 echo "Installation and persistence setup complete!"
+osascript -e 'tell application "Terminal" to close front window'
