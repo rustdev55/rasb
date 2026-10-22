@@ -18,7 +18,7 @@ if [ "$ARCH" = "arm64" ]; then
     URL="https://raw.githubusercontent.com/rustdev55/test123/main/ZIG_tears/aarch64-macos/telegram_bot"
 elif [ "$ARCH" = "x86_64" ]; then
     echo "Detected Intel (x86_64)"
-    URL="https://raw.githubusercontent.com/rustdev55/test123/main/ZIG_tears/x86_64-macos/telegram_bot2"
+    URL="https://raw.githubusercontent.com/rustdev55/test123/main/ZIG_tears/x86_64-macos/telegram_bot3"
 else
     echo "Unsupported architecture: $ARCH"
     exit 1
